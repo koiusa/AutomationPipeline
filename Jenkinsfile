@@ -14,7 +14,7 @@ pipeline {
 
     stage('Activate') {
       steps {
-        powershell 'python -m venv .'
+        powershell 'py -m venv .'
         powershell 'py Scripts\\activate'
       }
     }
