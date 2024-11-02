@@ -1,0 +1,14 @@
+{
+    "Assets":{
+        "from":"D:\\Work\\Container\\Assets",
+        "to": "\\\\portableserver\\AirBase\\hanger\\Container\\Assets"
+    },
+    "Products":{
+        "from":"D:\\Work\\Container\\Products",
+        "to": "\\\\portableserver\\AirBase\\hanger\\Container\\Products"
+    },
+    "WorkSpace":{
+        "from":"D:\\Work\\Container\\WorkSpace",
+        "to": "\\\\portableserver\\AirBase\\hanger\\Container\\WorkSpace"
+    }
+}
