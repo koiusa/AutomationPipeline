@@ -1,0 +1,10 @@
+{
+    "section1":{
+        "from":"path/to/workingDataDir1",
+        "to": "path/to/workingCacheDir1"
+    },
+    "section2":{
+        "from":"path/to/workingDataDir2",
+        "to": "path/to/workingCacheDir2"
+    }
+}
