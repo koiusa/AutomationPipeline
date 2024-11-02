@@ -18,6 +18,13 @@ pipeline {
         powershell 'Scripts\\activate'
       }
     }
+    
+    stage('Execute') {
+      steps {
+        powershell 'cd .\\worker'
+        powershell 'py .\\main.py'
+      }
+    }
 
     stage('DeActivate') {
       steps {
