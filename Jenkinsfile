@@ -14,14 +14,14 @@ pipeline {
 
     stage('Activate') {
       steps {
-        sh 'python -m venv .'
-        sh 'py Scripts\\activate'
+        powershell 'python -m venv .'
+        powershell 'py Scripts\\activate'
       }
     }
 
     stage('DeActivate') {
       steps {
-        sh 'deactivate'
+        powershell 'deactivate'
       }
     }
 
